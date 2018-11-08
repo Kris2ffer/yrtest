@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="2" name="YrTest" time="58.389" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="yrtest local"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\Kris\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="af8d46c8c2829634"/>
+    <property name="POM_ARTIFACTID" value="yr-test"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="RegionCode" value="EMEA"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_112\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_112\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="yr-test"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\Kris\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_112-b15"/>
+    <property name="user.name" value="Kris"/>
+    <property name="NODE_ENV" value="production"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="OnlineServices" value="Online Services"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="no"/>
+    <property name="JOB_BASE_NAME" value="yrtest local"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/yrtest%20local/2/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#2"/>
+    <property name="OneDrive" value="C:\Users\Kris\OneDrive"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_112\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\Kris\AppData\Local"/>
+    <property name="java.version" value="1.8.0_112"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="USERNAME" value="Kris"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="AXIS2_HOME" value="C:\dev\Axix\axis2-1.7.4"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_112\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="2"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="maven.conf" value="C:\Users\Kris\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="NO"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_112\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="platformcode" value="KV"/>
+    <property name="=ExitCode" value="00000082"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/yrtest%20local/2/display/redirect"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\Kris\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.112-b15"/>
+    <property name="user.variant" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/yrtest%20local/display/redirect"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="LAPTOP-R88FV3I9"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_112"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="HOMEPATH" value="\Users\Kris"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="LAPTOP-R88FV3I9"/>
+    <property name="POM_GROUPID" value="yr-test"/>
+    <property name="user.home" value="C:\Users\Kris"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-yrtest local-2"/>
+    <property name="JENKINS_SERVER_COOKIE" value="af8d46c8c2829634"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\Kris"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_112\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Kris\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin;C:\Program Files\Java\jdk1.8.0_112/bin;C:\Program Files\Java\jdk1.8.0_112/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Users\Kris\Downloads\apache-maven-3.3.9-bin\apache-maven-3.3.9/bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_112\bin;C:\Users\Kris\AppData\Local\Microsoft\WindowsApps;C:\Users\Kris\AppData\Roaming\npm;;C:\Program Files\Microsoft VS Code\bin;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\Kris\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\Kris\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
+    <property name="java.class.path" value="C:\Users\Kris\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12-alpha-1.jar;C:\Users\Kris\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\boot\plexus-classworlds-2.5.2.jar;C:\Users\Kris\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\Kris\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven C:\Users\Kris\.jenkins\war\WEB-INF\lib\remoting-3.25.jar C:\Users\Kris\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\Kris\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 54177"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_112/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Users\Kris\Downloads\apache-maven-3.3.9-bin\apache-maven-3.3.9/bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_112\bin;C:\Users\Kris\AppData\Local\Microsoft\WindowsApps;C:\Users\Kris\AppData\Roaming\npm;;C:\Program Files\Microsoft VS Code\bin"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_112/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 78 Stepping 3, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Users\Kris\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
+    <property name="java.io.tmpdir" value="C:\Users\Kris\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\Kris\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\Kris\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/yrtest%20local/2/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_112\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\dev\projects\yr-test"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/yrtest%20local/"/>
+    <property name="LOGONSERVER" value="\\LAPTOP-R88FV3I9"/>
+    <property name="USERDOMAIN" value="LAPTOP-R88FV3I9"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="C:\Users\Kris\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="2"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="4e03"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="=C:" value="C:\dev\lib"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\Kris\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar"/>
+    <property name="WORKSPACE" value="C:\Users\Kris\.jenkins\workspace\yrtest local"/>
+    <property name="maven3.interceptor.common" value="C:\Users\Kris\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+  </properties>
+  <testcase classname="YrTest" name="testSearch" time="4.956"/>
+  <testcase classname="YrTest" name="testSearchAndHittingEnter" time="2.928"/>
+  <testcase classname="YrTest" name="testSearchAndNavigateLinks" time="25.81">
+    <failure message="Unable to locate element: VÃ¦rradar
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;LAPTOP-R88FV3I9&apos;, ip: &apos;192.168.10.153&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Kris\AppData\Local\Temp\rust_mozprofile.WtJ5yJxAfEt6, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=56.0, platformVersion=10.0, moz:processID=11900, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: ec6293b4-0b64-4e3b-bbad-fa2068521811
+*** Element info: {Using=link text, value=VÃ¦rradar}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: VÃ¦rradar
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;LAPTOP-R88FV3I9&apos;, ip: &apos;192.168.10.153&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Kris\AppData\Local\Temp\rust_mozprofile.WtJ5yJxAfEt6, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=56.0, platformVersion=10.0, moz:processID=11900, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: ec6293b4-0b64-4e3b-bbad-fa2068521811
+*** Element info: {Using=link text, value=VÃ¦rradar}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:470)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.click(Unknown Source)
+	at PlacePage.clickOnWeatherRadarLink(PlacePage.java:59)
+	at YrTest.testSearchAndNavigateLinks(YrTest.java:80)
+</failure>
+    <system-err>1541648672848	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;https://www.yr.no/sted/Norge/Buskerud/Drammen/Drammen/&quot;
+1541648672883	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;https://www.yr.no/sted/Norge/Buskerud/Drammen/Drammen/&quot;
+1541648672889	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;https://www.yr.no/sted/Norge/Buskerud/Drammen/Drammen/&quot;
+1541648673139	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;6442451012&quot;
+1541648673140	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;6442451013&quot;
+1541648673140	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;6442451010&quot;
+1541648673273	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.yr.no/&quot;
+1541648673901	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.yr.no/&quot;
+1541648674150	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;https://www.yr.no/&quot;
+1541648674206	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;6442451019&quot;
+1541648674206	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;6442451020&quot;
+1541648674207	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;6442451021&quot;
+1541648674208	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;6442451022&quot;
+1541648674209	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;6442451023&quot;
+1541648674209	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;6442451024&quot;
+1541648674210	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;6442451025&quot;
+1541648674211	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;6442451026&quot;
+1541648674238	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;https://www.yr.no/&quot;
+1541648674242	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;https://www.yr.no/&quot;
+1541648674433	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.yr.no/soek/soek.aspx?sted=Oslo&quot;
+1541648674485	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;6442451017&quot;
+1541648674531	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.yr.no/soek/soek.aspx?sted=Oslo&quot;
+1541648674578	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;https://www.yr.no/soek/soek.aspx?sted=Oslo&quot;
+1541648674639	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;https://www.yr.no/soek/soek.aspx?sted=Oslo&quot;
+1541648674639	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;https://www.yr.no/soek/soek.aspx?sted=Oslo&quot;
+1541648675043	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/&quot;
+1541648675385	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/&quot;
+1541648675598	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/&quot;
+1541648675731	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/&quot;
+1541648675741	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/&quot;
+1541648676424	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;6442451039&quot;
+1541648676424	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;6442451040&quot;
+1541648676424	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;6442451037&quot;
+1541648676739	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/time_for_time.html&quot;
+1541648676810	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/time_for_time.html&quot;
+1541648676882	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/time_for_time.html&quot;
+1541648676922	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/time_for_time.html&quot;
+1541648676922	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/time_for_time.html&quot;
+1541648677513	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/time_for_time_detaljert.html&quot;
+1541648677704	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/time_for_time_detaljert.html&quot;
+1541648677777	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/time_for_time_detaljert.html&quot;
+1541648677813	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/time_for_time_detaljert.html&quot;
+1541648677813	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/time_for_time_detaljert.html&quot;
+1541648678506	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/langtidsvarsel.html&quot;
+1541648678587	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/langtidsvarsel.html&quot;
+</system-err>
+  </testcase>
+  <testcase classname="YrTest" name="testSearchAndNavigateLinks2" time="24.695">
+    <failure message="Unable to locate element: VÃ¦rradar
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;LAPTOP-R88FV3I9&apos;, ip: &apos;192.168.10.153&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Kris\AppData\Local\Temp\rust_mozprofile.WtJ5yJxAfEt6, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=56.0, platformVersion=10.0, moz:processID=11900, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: ec6293b4-0b64-4e3b-bbad-fa2068521811
+*** Element info: {Using=link text, value=VÃ¦rradar}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: VÃ¦rradar
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;LAPTOP-R88FV3I9&apos;, ip: &apos;192.168.10.153&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_112&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Kris\AppData\Local\Temp\rust_mozprofile.WtJ5yJxAfEt6, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=56.0, platformVersion=10.0, moz:processID=11900, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: ec6293b4-0b64-4e3b-bbad-fa2068521811
+*** Element info: {Using=link text, value=VÃ¦rradar}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:470)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy7.click(Unknown Source)
+	at PlacePage2.clickOnWeatherRadarLink(PlacePage2.java:64)
+	at YrTest.testSearchAndNavigateLinks2(YrTest.java:112)
+</failure>
+    <system-err>1541648698636	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/langtidsvarsel.html&quot;
+1541648698681	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/langtidsvarsel.html&quot;
+1541648698682	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/langtidsvarsel.html&quot;
+1541648699016	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.yr.no/&quot;
+1541648699488	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.yr.no/&quot;
+1541648699813	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;https://www.yr.no/&quot;
+1541648699865	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;https://www.yr.no/&quot;
+1541648699871	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;https://www.yr.no/&quot;
+1541648700110	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.yr.no/soek/soek.aspx?sted=Oslo&quot;
+1541648700138	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;6442451049&quot;
+1541648700139	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;6442451051&quot;
+1541648700140	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;6442451053&quot;
+1541648700140	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;6442451055&quot;
+1541648700141	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;6442451057&quot;
+1541648700141	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;6442451059&quot;
+1541648700142	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;6442451061&quot;
+1541648700143	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;6442451063&quot;
+1541648700144	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;6442451047&quot;
+1541648700207	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.yr.no/soek/soek.aspx?sted=Oslo&quot;
+1541648700264	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;https://www.yr.no/soek/soek.aspx?sted=Oslo&quot;
+1541648700290	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;https://www.yr.no/soek/soek.aspx?sted=Oslo&quot;
+1541648700291	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;https://www.yr.no/soek/soek.aspx?sted=Oslo&quot;
+1541648700691	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/&quot;
+1541648701027	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/&quot;
+1541648701284	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/&quot;
+1541648701407	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/&quot;
+1541648701414	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/&quot;
+1541648701641	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/time_for_time.html&quot;
+1541648701884	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;6442451069&quot;
+1541648701887	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;6442451070&quot;
+1541648701887	Marionette	DEBUG	Received observer notification &quot;outer-window-destroyed&quot; for &quot;6442451067&quot;
+1541648701957	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/time_for_time.html&quot;
+1541648702024	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/time_for_time.html&quot;
+1541648702055	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/time_for_time.html&quot;
+1541648702055	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/time_for_time.html&quot;
+1541648702571	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/time_for_time_detaljert.html&quot;
+1541648702804	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/time_for_time_detaljert.html&quot;
+1541648702879	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/time_for_time_detaljert.html&quot;
+1541648702920	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/time_for_time_detaljert.html&quot;
+1541648702920	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/time_for_time_detaljert.html&quot;
+1541648703128	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/langtidsvarsel.html&quot;
+1541648703304	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/langtidsvarsel.html&quot;
+</system-err>
+  </testcase>
+</testsuite>
