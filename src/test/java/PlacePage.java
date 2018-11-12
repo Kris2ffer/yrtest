@@ -21,11 +21,11 @@ public class PlacePage {
     @FindBy(how = How.LINK_TEXT, using = "Langtidsvarsel")
     WebElement linkLongTerm;
 
-    @FindBy(how = How.LINK_TEXT, using = "Været som var")
+    @FindBy(how = How.CLASS_NAME, using = "yr-icon-stats")
     WebElement linkPastWeatherStats;
     WebElement linkStatsDetails, linkStatsDateSearch, linkStatsClimate;
 
-    @FindBy(how = How.LINK_TEXT, using = "Værradar")
+    @FindBy(how = How.CLASS_NAME, using = "yr-icon-radar")
     WebElement linkWeatherRadar;
 
 
@@ -63,7 +63,7 @@ public class PlacePage {
     public PlacePage clickOnPastWeatherStatsLink() {
         linkPastWeatherStats.click();
         linkStatsDetails = driver.findElement(By.linkText("Detaljert"));
-        linkStatsDateSearch = driver.findElement(By.linkText("Datosøk"));
+        linkStatsDateSearch = driver.findElement(By.xpath("//a[contains(@href,'almanakk.html')]"));
         linkStatsClimate = driver.findElement(By.linkText("Klima"));
         return this;
     }
@@ -78,7 +78,7 @@ public class PlacePage {
 
     public PlacePage clickOnStatsDateSearchLink() {
         try {
-            linkStatsDateSearch = driver.findElement(By.linkText("Datosøk"));
+            linkStatsDateSearch = driver.findElement(By.xpath("//a[contains(@href,'almanakk.html')]"));
             linkStatsDateSearch.click();
         } catch (Exception e) { }
         return this;

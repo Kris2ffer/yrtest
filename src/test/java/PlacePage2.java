@@ -9,24 +9,24 @@ public class PlacePage2 extends YrHeader2 {
     //WebDriver driver;
 
     @FindBy(how = How.CSS, using = ".yr-content-title.clearfix>h1>span>strong")
-    WebElement placeName;
+    private WebElement placeName;
 
     @FindBy(how = How.CSS, using = "#point>h2>strong")
-    WebElement hourByHourTitle;
+    private WebElement hourByHourTitle;
 
     @FindBy(how = How.LINK_TEXT, using = "Time for time")
-    WebElement linkHourByHour;
-    WebElement linkHourByHourDetailed;
+    private WebElement linkHourByHour;
+    private WebElement linkHourByHourDetailed;
 
     @FindBy(how = How.LINK_TEXT, using = "Langtidsvarsel")
-    WebElement linkLongTerm;
+    private WebElement linkLongTerm;
 
-    @FindBy(how = How.LINK_TEXT, using = "Været som var")
-    WebElement linkPastWeatherStats;
-    WebElement linkStatsDetails, linkStatsDateSearch, linkStatsClimate;
+    @FindBy(how = How.CLASS_NAME, using = "yr-icon-stats")
+    private WebElement linkPastWeatherStats;
+    private WebElement linkStatsDetails, linkStatsDateSearch, linkStatsClimate;
 
-    @FindBy(how = How.LINK_TEXT, using = "Værradar")
-    WebElement linkWeatherRadar;
+    @FindBy(how = How.CLASS_NAME, using = "yr-icon-radar")
+    private WebElement linkWeatherRadar;
 
 
     public PlacePage2(WebDriver driver) {
@@ -68,7 +68,7 @@ public class PlacePage2 extends YrHeader2 {
     public PlacePage2 clickOnPastWeatherStatsLink() {
         linkPastWeatherStats.click();
         linkStatsDetails = driver.findElement(By.linkText("Detaljert"));
-        linkStatsDateSearch = driver.findElement(By.linkText("Datosøk"));
+        linkStatsDateSearch = driver.findElement(By.xpath("//a[contains(@href,'almanakk.html')]"));
         linkStatsClimate = driver.findElement(By.linkText("Klima"));
         return this;
     }
@@ -83,7 +83,7 @@ public class PlacePage2 extends YrHeader2 {
 
     public PlacePage2 clickOnStatsDateSearchLink() {
         try {
-            linkStatsDateSearch = driver.findElement(By.linkText("Datosøk"));
+            linkStatsDateSearch = driver.findElement(By.xpath("//a[contains(@href,'almanakk.html')]"));
             linkStatsDateSearch.click();
         } catch (Exception e) { }
         return this;
